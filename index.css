@@ -1,0 +1,174 @@
+:root {
+  --hunter-green: #4a5f3e;
+  --columbia-blue: #cbe8fd;
+  --jordy-blue: #85b9ef;
+  --dark-moss-green: #235708;
+  --apple-green: #adb419;
+  --text-heading: #010201;
+}
+
+body {
+  font-family: "Delius", cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("./images/timisoara.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 500px;
+  padding: 2em;
+  text-align: center;
+  color: var(--text-heading);
+}
+
+h1.header-title {
+  font-size: 2.5em;
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=85b9ef);
+  display: inline-block;
+  padding: 0.5em;
+  margin-top: 3em;
+}
+
+p.header-description {
+  color: var(--text-heading-green);
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=adb419ff);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em 4.5em 1em 4.5em;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+main {
+  background: linear-gradient(
+    184deg,
+    rgba(173, 180, 25, 1) 0%,
+    rgba(35, 87, 8, 1) 100%
+  );
+  padding: 2em;
+  width: 100%;
+}
+
+div.activities-section {
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: var(--text-heading);
+  margin: 0 0 1.5em 0;
+}
+
+ul.activities-list {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li.activity-list-item {
+  list-style: none;
+  width: calc(33% - 1em);
+  min-width: 200px;
+  height: auto;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.activity-img-container {
+  height: 200px;
+  width: 50%;
+  overflow: hidden;
+}
+
+img.activity-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+div.activity-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 1em;
+}
+
+p.activity-description {
+  height: auto;
+  width: 50%;
+}
+
+h3.activity-title {
+  margin-top: 1em;
+}
+
+div.guide-section {
+  max-width: 400px;
+  height: 300px;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=85b9ef);
+  border-radius: 25px;
+  padding: 1em 2em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+img.guide-img {
+  width: 50%;
+  height: 60%;
+  border-radius: 10px;
+}
+
+h2.guide-title {
+  text-align: start;
+  margin: 0 0 0.5em 0;
+}
+
+p.guide-description {
+  margin: 0;
+}
+
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(44, 90, 14, 1) 0%,
+    rgba(35, 74, 9, 1) 53%,
+    rgba(15, 28, 1, 1) 100%
+  );
+  color: white;
+  padding: 2.5em 2.5em 1em 2.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 800px) {
+  ul.activities-list {
+    flex-direction: column;
+  }
+
+  div.activity-img-container {
+    margin: -2em 0 -3em 0;
+  }
+}
