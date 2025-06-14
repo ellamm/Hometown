@@ -1,5 +1,7 @@
 # 🏘️ Hometown MM - A Digital Celebration of Community 🌟
 
+🌐 Live Site: https://hometown-mm.netlify.app/
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ea718d98-c6d4-49aa-9271-058176061b50/deploy-status)](https://hometown-mm.netlify.app/)
 
 ## 🏘️ Overview
@@ -12,8 +14,8 @@ The website was build during Scrimba Frontend Development Career Path, being the
 
 - 🏛️ **Top Activities**: Curated list of must-visit attractions
 - 📍 **Local Insights**: Personal recommendations from a long-time resident  
-- 🏛️ ***Historic Sites**: Orthodox Cathedral, Union Square, and architectural highlights
-- 🌊 ***Natural Attractions**: Bega River and green spaces
+- 🏛️ **Historic Sites**: Orthodox Cathedral, Union Square, and architectural highlights
+- 🌊 **Natural Attractions**: Bega River and green spaces
 - 👤 **Personal Guide**: Meet your local guide section
 - 📱 **Responsive Design**: Perfect viewing on all devices
 - 🖼️ **Visual Storytelling**: Beautiful imagery showcasing the city
