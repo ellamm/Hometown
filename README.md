@@ -10,19 +10,22 @@ The website was build during Scrimba Frontend Development Career Path, being the
 
 ## ✨ Key Features:
 
-### 🖼️ Hero Section:
-
-A welcoming introduction with a representative image of Timisoara with a clear and inviting headline.
-
-### 📍 Attractions:
-
-Showcases key points of interest within Timisoara, likely by images and short descriptions to encourage exploration.
-
+- 🏛️ **Top Activities**: Curated list of must-visit attractions
+- 📍 **Local Insights**: Personal recommendations from a long-time resident  
+- 🏛️ ***Historic Sites**: Orthodox Cathedral, Union Square, and architectural highlights
+- 🌊 ***Natural Attractions**: Bega River and green spaces
+- 👤 **Personal Guide**: Meet your local guide section
+- 📱 **Responsive Design**: Perfect viewing on all devices
+- 🖼️ **Visual Storytelling**: Beautiful imagery showcasing the city
+  
 ## 🛠️ Technologies Used:
 
-### 🧱 HTML (The Foundation of Community)
-
-### 🎨 CSS (Styling the Hometown Spirit)
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Styling**: Modern CSS with responsive design
+- **Images**: Optimized web images
+- **Build Tool**: Vite
+- **Deployment**: Netlify
+- **Version Control**: Git & GitHub
 
 ## 🧠 Key Learnings:
 
